@@ -1,0 +1,55 @@
+html {
+  color: white;
+  background-color: black;
+}
+.btnExit {
+  font-size: x-large;
+  padding: 0.3rem 0 0.3rem 0;
+}
+.btnExit:hover {
+  background-color: rgb(29, 29, 29);
+}
+.btnExit p {
+  margin: 0 0.2rem 0.4rem 0;
+}
+.btnCloseModal {
+  width: 100%;
+  justify-content: end;
+  justify-items: end;
+  align-items: end;
+  display: flex;
+  font-size: 1.25rem;
+  z-index: 2;
+  margin-bottom: 10px;
+}
+.exitIcon {
+  font-size: 1.4rem;
+  margin-top: 0.2rem;
+}
+.iconPerson {
+  font-size: 3.5rem;
+  margin: 0 auto 0 auto;
+}
+.sideBarSquare {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.5rem;
+  justify-content: space-between;
+  max-width: 20rem;
+  width: 100%;
+  border-right: 1px solid rgb(69, 69, 88);
+}
+.squareChat {
+  max-height: 80vh;
+  height: 100%;
+  /* height: 80vh; */
+}
+.squareFormCreateContact {
+  max-width: 25rem;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .sideBarSquare {
+    max-width: 500px;
+  }
+}
